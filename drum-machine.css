@@ -1,0 +1,56 @@
+.container{
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+}
+
+.machine{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ width: 400px;
+background-color: rgb(255, 0, 0);
+ padding: 0;
+  margin: 0;
+  gap: 5px;
+  height: 500px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.drum-pad{
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  background-color: cornflowerblue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  color: white;
+  border-radius: 10%;
+}
+
+.volume{
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 0, 51);
+  text-align: center;
+  color: white;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 3%;
+}
+
+.display{
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+  text-align: center;
+  background-color: rgb(255, 0, 51);
+  color: white;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 3%;
+}
+
